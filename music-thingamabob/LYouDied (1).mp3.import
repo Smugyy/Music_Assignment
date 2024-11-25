@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c1vuhf5xjp1ul"
+path="res://.godot/imported/LYouDied (1).mp3-9b34d5968c33b309d9abb4c1ac772a89.mp3str"
+
+[deps]
+
+source_file="res://LYouDied (1).mp3"
+dest_files=["res://.godot/imported/LYouDied (1).mp3-9b34d5968c33b309d9abb4c1ac772a89.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
