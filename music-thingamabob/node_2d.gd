@@ -17,3 +17,11 @@ func _on_h_slider_value_changed(value: float) -> void:
 	
 	
 	pass
+func _on_button_2_button_down() -> void:
+	if $AudioStreamPlayer2D2.playing:
+		$Button2.text="play"
+		$AudioStreamPlayer2D2.stop()
+	else:
+		$Button2.text="stop"
+		$AudioStreamPlayer2D2.play()
+	pass # Replace with function body.
