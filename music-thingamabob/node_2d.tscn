@@ -1,43 +1,266 @@
-[gd_scene load_steps=6 format=3 uid="uid://drfc3qhwhrywi"]
+[gd_scene load_steps=15 format=3 uid="uid://drfc3qhwhrywi"]
 
 [ext_resource type="Script" path="res://node_2d.gd" id="1_nhlfr"]
 [ext_resource type="AudioStream" uid="uid://c1vuhf5xjp1ul" path="res://LYouDied (1).mp3" id="2_6xfxn"]
-[ext_resource type="Texture2D" uid="uid://bj8pkod5utul" path="res://2FC798DF-F7E4-441B-807D-A22FD9B9346D.jpg" id="3_iblkt"]
-[ext_resource type="Texture2D" uid="uid://dtf5s8kwq5cgn" path="res://61a5b32c3f719f56ab171e3961d1e6f7.jpg" id="4_scvwn"]
+[ext_resource type="AudioStream" uid="uid://bphpnibij6fpy" path="res://metal-pipe-falling-sound-effect-made-with-Voicemod.mp3" id="4_ybwxl"]
 [ext_resource type="AudioStream" uid="uid://dul8327wvt17w" path="res://lego-yoda-death-made-with-Voicemod.mp3" id="5_2w5t1"]
+[ext_resource type="AudioStream" uid="uid://w0qetsd6hmoy" path="res://vine-boom-made-with-Voicemod.mp3" id="5_ty1qd"]
+[ext_resource type="AudioStream" uid="uid://letwitkgg1mm" path="res://rizz-made-with-Voicemod.mp3" id="6_de4lx"]
+[ext_resource type="AudioStream" uid="uid://cftoy187ovbf1" path="res://taco-bell-bell-made-with-Voicemod.mp3" id="7_cu7uu"]
+[ext_resource type="AudioStream" uid="uid://d16ol7echkahs" path="res://get-out!!-made-with-Voicemod.mp3" id="8_4aw28"]
+[ext_resource type="AudioStream" uid="uid://b20dqbvnduout" path="res://minecraft-cave-noise-made-with-Voicemod.mp3" id="9_ppx02"]
+[ext_resource type="AudioStream" uid="uid://dorghstecb4qo" path="res://spongebob-made-with-Voicemod.mp3" id="10_387nk"]
+[ext_resource type="AudioStream" uid="uid://ey73pqa3i8rt" path="res://scooby-doo-laugh-meme-made-with-Voicemod.mp3" id="11_cj7mc"]
+[ext_resource type="AudioStream" uid="uid://b68m0mh8indac" path="res://nfl-theme-made-with-Voicemod.mp3" id="12_af5ld"]
+[ext_resource type="AudioStream" uid="uid://dyp0drvxnuboc" path="res://goku-prowler-made-with-Voicemod.mp3" id="13_cp53y"]
+[ext_resource type="AudioStream" uid="uid://blfmrlqtj7j00" path="res://Thick of It by KSI but it's Big Band Jazz (Full Version).mp3" id="14_k12w5"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_nhlfr")
 metadata/_edit_horizontal_guides_ = [-92.0]
 
-[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+[node name="The buttons" type="Node2D" parent="."]
+
+[node name="Button" type="Button" parent="The buttons"]
+offset_left = 110.0
+offset_top = 75.0
+offset_right = 289.0
+offset_bottom = 153.0
+text = "No"
+
+[node name="Button2" type="Button" parent="The buttons"]
+offset_left = 356.0
+offset_top = 81.0
+offset_right = 524.0
+offset_bottom = 155.0
+text = "Clue"
+
+[node name="Button3" type="Button" parent="The buttons"]
+offset_left = 576.0
+offset_top = 84.0
+offset_right = 741.0
+offset_bottom = 158.0
+text = "What"
+
+[node name="Button4" type="Button" parent="The buttons"]
+offset_left = 796.0
+offset_top = 82.0
+offset_right = 991.0
+offset_bottom = 158.0
+text = "Any"
+
+[node name="Button5" type="Button" parent="The buttons"]
+offset_left = 128.0
+offset_top = 250.0
+offset_right = 281.0
+offset_bottom = 316.0
+text = "Of"
+
+[node name="Button6" type="Button" parent="The buttons"]
+offset_left = 368.0
+offset_top = 248.0
+offset_right = 523.0
+offset_bottom = 330.0
+text = "These"
+
+[node name="Button7" type="Button" parent="The buttons"]
+offset_left = 592.0
+offset_top = 253.0
+offset_right = 756.0
+offset_bottom = 327.0
+text = "Buttons"
+
+[node name="Button8" type="Button" parent="The buttons"]
+offset_left = 818.0
+offset_top = 258.0
+offset_right = 994.0
+offset_bottom = 320.0
+text = "Do"
+
+[node name="Button9" type="Button" parent="The buttons"]
+offset_left = 136.0
+offset_top = 404.0
+offset_right = 302.0
+offset_bottom = 480.0
+text = "Maybe"
+
+[node name="Button10" type="Button" parent="The buttons"]
+offset_left = 370.0
+offset_top = 407.0
+offset_right = 526.0
+offset_bottom = 481.0
+text = "They"
+
+[node name="Button11" type="Button" parent="The buttons"]
+offset_left = 593.0
+offset_top = 408.0
+offset_right = 760.0
+offset_bottom = 480.0
+text = "Make"
+
+[node name="Button12" type="Button" parent="The buttons"]
+offset_left = 824.0
+offset_top = 411.0
+offset_right = 989.0
+offset_bottom = 477.0
+text = "Sounds"
+
+[node name="Button13" type="Button" parent="The buttons"]
+offset_left = 483.0
+offset_top = 543.0
+offset_right = 655.0
+offset_bottom = 605.0
+text = "¯\\_(ツ)_/¯"
+
+[node name="checkboxes" type="Node2D" parent="."]
+
+[node name="CheckBox" type="CheckBox" parent="checkboxes"]
+offset_left = 188.0
+offset_top = 168.0
+offset_right = 212.0
+offset_bottom = 192.0
+
+[node name="CheckBox2" type="CheckBox" parent="checkboxes"]
+offset_left = 424.0
+offset_top = 176.0
+offset_right = 448.0
+offset_bottom = 200.0
+
+[node name="CheckBox3" type="CheckBox" parent="checkboxes"]
+offset_left = 657.0
+offset_top = 185.0
+offset_right = 681.0
+offset_bottom = 209.0
+
+[node name="CheckBox4" type="CheckBox" parent="checkboxes"]
+offset_left = 889.0
+offset_top = 187.0
+offset_right = 913.0
+offset_bottom = 211.0
+
+[node name="CheckBox5" type="CheckBox" parent="checkboxes"]
+offset_left = 205.0
+offset_top = 332.0
+offset_right = 229.0
+offset_bottom = 356.0
+
+[node name="CheckBox6" type="CheckBox" parent="checkboxes"]
+offset_left = 436.0
+offset_top = 344.0
+offset_right = 460.0
+offset_bottom = 368.0
+
+[node name="CheckBox7" type="CheckBox" parent="checkboxes"]
+offset_left = 670.0
+offset_top = 339.0
+offset_right = 694.0
+offset_bottom = 363.0
+
+[node name="CheckBox8" type="CheckBox" parent="checkboxes"]
+offset_left = 904.0
+offset_top = 339.0
+offset_right = 928.0
+offset_bottom = 363.0
+
+[node name="CheckBox9" type="CheckBox" parent="checkboxes"]
+offset_left = 205.0
+offset_top = 491.0
+offset_right = 229.0
+offset_bottom = 515.0
+
+[node name="CheckBox10" type="CheckBox" parent="checkboxes"]
+offset_left = 446.0
+offset_top = 494.0
+offset_right = 470.0
+offset_bottom = 518.0
+
+[node name="CheckBox11" type="CheckBox" parent="checkboxes"]
+offset_left = 675.0
+offset_top = 493.0
+offset_right = 699.0
+offset_bottom = 517.0
+
+[node name="CheckBox12" type="CheckBox" parent="checkboxes"]
+offset_left = 902.0
+offset_top = 492.0
+offset_right = 926.0
+offset_bottom = 516.0
+
+[node name="CheckBox13" type="CheckBox" parent="checkboxes"]
+offset_left = 562.0
+offset_top = 609.0
+offset_right = 586.0
+offset_bottom = 640.0
+
+[node name="Audio Clips" type="Node2D" parent="."]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="Audio Clips"]
 stream = ExtResource("2_6xfxn")
 
-[node name="Button" type="Button" parent="."]
-offset_left = 16.0
-offset_top = 7.0
-offset_right = 597.0
-offset_bottom = 590.0
-text = "
-"
-icon = ExtResource("3_iblkt")
-
-[node name="HSlider" type="HSlider" parent="."]
-offset_left = 7.0
-offset_top = 606.0
-offset_right = 1142.0
-offset_bottom = 622.0
-
-[node name="Button2" type="Button" parent="."]
-offset_left = 600.0
-offset_top = -3.0
-offset_right = 1146.0
-offset_bottom = 670.0
-icon = ExtResource("4_scvwn")
-
-[node name="AudioStreamPlayer2D2" type="AudioStreamPlayer2D" parent="."]
+[node name="AudioStreamPlayer2D2" type="AudioStreamPlayer2D" parent="Audio Clips"]
 stream = ExtResource("5_2w5t1")
 
-[connection signal="button_down" from="Button" to="." method="_on_button_button_down"]
-[connection signal="value_changed" from="HSlider" to="." method="_on_h_slider_value_changed"]
-[connection signal="button_down" from="Button2" to="." method="_on_button_2_button_down"]
+[node name="AudioStreamPlayer2D3" type="AudioStreamPlayer2D" parent="Audio Clips"]
+stream = ExtResource("4_ybwxl")
+volume_db = 5.0
+
+[node name="AudioStreamPlayer2D4" type="AudioStreamPlayer2D" parent="Audio Clips"]
+stream = ExtResource("5_ty1qd")
+
+[node name="AudioStreamPlayer2D5" type="AudioStreamPlayer2D" parent="Audio Clips"]
+stream = ExtResource("6_de4lx")
+
+[node name="AudioStreamPlayer2D6" type="AudioStreamPlayer2D" parent="Audio Clips"]
+stream = ExtResource("7_cu7uu")
+
+[node name="AudioStreamPlayer2D7" type="AudioStreamPlayer2D" parent="Audio Clips"]
+stream = ExtResource("8_4aw28")
+
+[node name="AudioStreamPlayer2D8" type="AudioStreamPlayer2D" parent="Audio Clips"]
+stream = ExtResource("9_ppx02")
+
+[node name="AudioStreamPlayer2D9" type="AudioStreamPlayer2D" parent="Audio Clips"]
+stream = ExtResource("10_387nk")
+volume_db = 5.0
+
+[node name="AudioStreamPlayer2D10" type="AudioStreamPlayer2D" parent="Audio Clips"]
+stream = ExtResource("11_cj7mc")
+
+[node name="AudioStreamPlayer2D11" type="AudioStreamPlayer2D" parent="Audio Clips"]
+stream = ExtResource("12_af5ld")
+
+[node name="AudioStreamPlayer2D12" type="AudioStreamPlayer2D" parent="Audio Clips"]
+stream = ExtResource("13_cp53y")
+
+[node name="AudioStreamPlayer2D13" type="AudioStreamPlayer2D" parent="Audio Clips"]
+stream = ExtResource("14_k12w5")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(577, 325)
+
+[connection signal="button_down" from="The buttons/Button" to="." method="_on_button_button_down"]
+[connection signal="button_down" from="The buttons/Button2" to="." method="_on_button_2_button_down"]
+[connection signal="button_down" from="The buttons/Button3" to="." method="_on_button_3_button_down"]
+[connection signal="button_down" from="The buttons/Button4" to="." method="_on_button_4_button_down"]
+[connection signal="button_down" from="The buttons/Button5" to="." method="_on_button_5_button_down"]
+[connection signal="button_down" from="The buttons/Button6" to="." method="_on_button_6_button_down"]
+[connection signal="button_down" from="The buttons/Button7" to="." method="_on_button_7_button_down"]
+[connection signal="button_down" from="The buttons/Button8" to="." method="_on_button_8_button_down"]
+[connection signal="button_down" from="The buttons/Button9" to="." method="_on_button_9_button_down"]
+[connection signal="button_down" from="The buttons/Button10" to="." method="_on_button_10_button_down"]
+[connection signal="button_down" from="The buttons/Button11" to="." method="_on_button_11_button_down"]
+[connection signal="button_down" from="The buttons/Button12" to="." method="_on_button_12_button_down"]
+[connection signal="button_down" from="The buttons/Button13" to="." method="_on_button_13_button_down"]
+[connection signal="toggled" from="checkboxes/CheckBox" to="." method="_on_check_box_toggled"]
+[connection signal="toggled" from="checkboxes/CheckBox2" to="." method="_on_check_box_2_toggled"]
+[connection signal="toggled" from="checkboxes/CheckBox3" to="." method="_on_check_box_3_toggled"]
+[connection signal="toggled" from="checkboxes/CheckBox4" to="." method="_on_check_box_4_toggled"]
+[connection signal="toggled" from="checkboxes/CheckBox5" to="." method="_on_check_box_5_toggled"]
+[connection signal="toggled" from="checkboxes/CheckBox6" to="." method="_on_check_box_6_toggled"]
+[connection signal="toggled" from="checkboxes/CheckBox7" to="." method="_on_check_box_7_toggled"]
+[connection signal="toggled" from="checkboxes/CheckBox8" to="." method="_on_check_box_8_toggled"]
+[connection signal="toggled" from="checkboxes/CheckBox9" to="." method="_on_check_box_9_toggled"]
+[connection signal="toggled" from="checkboxes/CheckBox10" to="." method="_on_check_box_10_toggled"]
+[connection signal="toggled" from="checkboxes/CheckBox11" to="." method="_on_check_box_11_toggled"]
+[connection signal="toggled" from="checkboxes/CheckBox12" to="." method="_on_check_box_12_toggled"]
+[connection signal="toggled" from="checkboxes/CheckBox13" to="." method="_on_check_box_13_toggled"]
